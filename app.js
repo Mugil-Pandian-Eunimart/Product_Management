@@ -9,7 +9,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/',productRoute);
+app.use('/api/v1/product_management/products',productRoute);
 
 // error handler
 app.use(function(err, req, res, next) {
