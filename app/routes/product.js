@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+var { Validator,ValidationError } = require('express-json-validator-middleware');
 const Product = require('../services/products/product');
 
 router.route('/list').get( (req,res) => {
