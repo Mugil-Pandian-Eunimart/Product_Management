@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-npm start
+node /home/ec2-user/Product_Management/app.js
